@@ -1,0 +1,42 @@
+own_window yes
+own_window_transparent yes
+own_window_type desktop
+own_window_colour 262729
+own_window_hints undecorate,sticky,skip_taskbar,skip_pager
+double_buffer yes
+
+
+#borders
+border_margin 1
+maximum_widith 0 
+draw_shades no
+draw_graph_borders yes
+
+#shades
+draw_shades no
+draw_outline no
+
+#position
+gap_x 2
+gap_y 2
+alignment top_left
+
+#behaviour
+update_interval 1
+
+#colour
+#default_shade_color 000000
+default_color  000000
+
+#font
+use_xft yes
+xftfont URW Gothic L:pixelsize=12
+
+
+
+#mpd
+mpd_host localhost
+mpd_port 6600
+
+TEXT
+${voffset -1} Cpu: ${color 333333}${font}${cpu}% ${color} Mem: ${color 333333}${font}${mem} ${color} | ${color} Up: ${color 333333}${font}${uptime_short}${color}  | ${color} Net: ${color 333333}${font}${downspeed eth0} Kb/s ${color} ${totaldown eth0} downloaded${color} | ${color} ${color 333333}${upspeed eth0} Kb/s ${color} ${totalup eth0} uploaded${color}  |  ${color}Windows: ${color 333333}${font}${fs_free /media/windows} ${color} Media: ${color 333333}${font}${fs_free /media/multimedia} ${color} | ${color} Mpd:  ${color 333333}${font}${mpd_smart} ${color}| Time: ${color 333333}${font}${time %d %b %H:%M} ${color} |Temp: ${color 333333}${font}${execi 300 /home/dom/bin/weather.sh 36532}
