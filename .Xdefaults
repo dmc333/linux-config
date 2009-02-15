@@ -1,0 +1,35 @@
+urxvt*foreground:      #FFFFFF
+urxvt*background:      #222222
+urxvt*depth:            32
+urxvt*cursorColor:      grey
+urxvt*fading:           10
+urxvt*fadeColor:        white
+urxvt*font:             xft:Bitstream Vera Sans Mono:pixelsize=13:autohinting=true
+urxvt*saveLines:        8192
+urxvt*geometry:         91x15
+urxvt*perl-lib:         /usr/lib/urxvt/perl/
+urxvt*perl-ext-common:  default,matcher,selection,tabbed
+urxvt*urlLauncher:      firefox
+urxvt*underlineUrls:    true
+urxvt*matcher.button:   2
+URxvt.urlLauncher: firefox
+URxvt.matcher.button: 1
+
+urxvt*scrollBar:        false
+
+urxvt*color0: #222222
+urxvt*color1: #FFCC99
+urxvt*color2: #CCFFFF
+urxvt*color3: #875F00
+urxvt*color4: #005FAF
+urxvt*color5: #5F5F87
+urxvt*color6: #008787
+urxvt*color7: #818181
+urxvt*color8: #414141
+urxvt*color9: #4169E1
+urxvt*color10: #AFD7AF
+urxvt*color11: #D7AF00
+urxvt*color12: #00AFFF
+urxvt*color13: #AFAFD7
+urxvt*color14: #00D7D7
+urxvt*color15: #CECECE
